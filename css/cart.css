@@ -1,0 +1,468 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.cover {
+    margin: auto;
+    width:30%;
+    border:0.1em solid black;
+    padding: 1px;
+
+}
+/*------- top------ */
+.top {
+    margin: 1em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.top-left img {
+    width: 2em;
+}
+
+.top-right {
+    display: flex;
+    font-size: 0.7em;
+    font-family: sans-serif;
+    /* position: relative;
+    left: -3em; */
+}
+
+.top-right img {
+    width: 3em;
+    height: 3em;
+    position: relative;
+    top: 0.3em;
+    
+}
+
+/*------- form------ */
+
+form {
+    width: 60%;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+form {
+    margin: auto;
+    background-color: #c5c5c5;
+    height: 2em;
+    display: flex;
+    border-radius: 0.5em;
+    border: none;
+    align-items: center;
+    margin-top: 1em;
+    width: 90%;
+    display: flex;
+
+}
+
+.fa-solid {
+    position: relative;
+    left: 1em;
+}
+
+form input {
+    width: 60%;
+    border: none;
+    outline: none;
+    background-color: #c5c5c5;
+    position: relative;
+    left: 2em;
+
+}
+
+/*------- detail------ */
+
+.detail {
+    height: 20em;
+    margin-top:2em;
+    background-color: rgba(255, 243, 235, 0.878);
+    font-family: Arial;
+
+}
+
+.detail h1 {
+    position: relative;
+    left: 1em;
+    top: 1em;
+}
+
+.detail p {
+    position: relative;
+    left: 0.5em;
+    top: 1.5em;
+    font-size: 1em;
+}
+
+.detail-box {
+    width: 75%;
+    height: 10em;
+    margin-top: 1em;
+    background-color: #ffffff;
+    align-items: center;
+    position: relative;
+    left: 2em;
+    top: 2em;
+    border-radius: 0.2em;
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgb(216, 216, 216);
+}
+
+.detail img {
+    width: 70%;
+    margin: 1.5em 3em;
+}
+
+.contant {
+width: 100%;
+    margin-top: 2em;
+}
+
+.img1 {
+    width: 100%;
+}
+.img2 {
+    width: 100%;
+}
+
+.contant-box {
+    margin-top: 2em;
+    box-sizing: border-box;
+}
+
+.products {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.products h2{
+ text-align: center;
+}
+
+
+
+.pro-contant img {
+    width: 100%;
+
+}
+
+.pro-price {
+margin: 0.5em;
+}
+
+h5 {
+    width: 80%;
+    box-sizing: border-box;
+    border: 0.1em solid orange;
+    padding: 0.5em;
+    position: relative;
+    left: 0.5em;
+}
+
+.pro-price p {
+    position: relative;
+    left: 0.5em;
+}
+
+.Browser {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Browser h2{
+    text-align: center;
+}
+
+.offer1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offer1 img {
+    width:30%;
+    box-sizing: border-box;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em rgb(233, 233, 233);
+}
+
+.offer2 {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offer2 img {
+    width: 30%;
+    box-sizing: border-box;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em rgb(233, 233, 233);
+}
+
+.offer1 p {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brands {
+    margin-top: 2em;
+    width: 100%;
+    background-color: #f6f4ff;
+    font-family: sans-serif;
+}
+
+.brands p {
+    font-size: 0.9em;
+}
+
+.brands h2 {
+    font-size: 1.5em;
+    color: rgb(16, 27, 240);
+}
+
+.brands img {
+    width: 80%;
+    align-items: center;
+}
+
+
+.brand-con {
+    padding: 1em;
+}
+
+.stories {
+    margin-top: 1em;
+    width: 100%;
+    font-family: sans-serif;
+    padding:0 0.4em;
+
+}
+
+.stories h2{
+    text-align: center;
+}
+
+.stories img {
+    width: 50%;
+    height: 20em;
+    padding-left: 2em;
+}
+
+.new {
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+.new img {
+    width: 30%;
+}
+
+.newone {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#one {
+    height: 6.7em;
+}
+
+
+
+.tablebox {
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+
+
+table,tr,td{
+    border: 2px solid #aaaaaa;
+    border-collapse: collapse;
+    margin: 4.5em;
+}
+
+.tablebox td {
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 0.7em;
+}
+
+.coupen {
+    width: 90%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.coupen h2{
+    margin-left: 1em;
+}
+
+.coupen p{
+    margin-left: 1em;
+}
+.coupen img{
+    width: 100%;
+}
+
+.value h2, p{
+    text-align: center;
+}
+.valueone h1 {
+    width: 70%;
+    height: 10em;
+    font-weight:900;   
+    background-image: url(../img/back.png);
+    position: relative;
+    left: 2em;
+}
+
+
+.valuetwo {
+    width: 70%;
+    background-color: #ffe643;
+    position: relative;
+    bottom: 1.5em;
+    left: 3em;
+
+}
+
+.valuetwo p {
+    padding: 1em;
+}
+
+.delsey {
+    margin-top: -2em;
+    width: 100%;
+}
+
+.delsey-one {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.delsey-one img {
+    width: 3em;
+    height: 3em;
+    position: relative;
+    top:2em;
+}
+
+.delsey-one h3 {
+    position: relative;
+   top: 0.5em;
+    left: 1.5em;
+}
+
+.delsey-one h3 span {
+    font-weight: 800;
+    font-size: larger;
+}
+
+
+.disley1 img{
+width: 100%;
+}
+
+/*------ seller------ */
+
+.seller {
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.seller img{
+    width: 80%;
+}
+
+.seller h6 {
+    border: none;
+    color: #2807aa;
+    font-size: 1em;
+
+}
+
+
+.fasion {
+    margin: 0;
+    background-color: #061eb7;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fasion-one {
+    position: relative;
+    top: 1em;
+    color: #c5c5c5;
+}
+
+
+.fasion-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.fasion1 {
+    width: 35%;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-weight: 900;
+    border-radius: 0.2em;
+}
+
+.fasion2 {
+    width: 35%;
+    background-color: #9226c9;
+    text-align: center;
+    border-radius: 0.2em;
+}
+
+.fasion2 h3 {
+    font-weight: 800;
+    color: #ffe643;
+}
+
+.fasion2 h4 {
+    position: relative;
+    bottom: 1em;
+}
+
+.fasion2 span {
+    font-size: 1em;
+}
+
+.fasion2 img {
+    width: 3em;
+    border-radius: 0.5em;
+    position: relative;
+    bottom: 1em;
+}
+
+.cream {
+    width: 100%;
+    position: relative;
+    top: 1em;
+    text-align: center;
+}
+
+.cream img{
+    width: 90%;
+}
+.cream span {
+    font-size: 0.7em;
+    color: #ff4800;
+}
+
+.last img{
+    width: 50%;
+}
